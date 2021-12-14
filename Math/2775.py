@@ -12,5 +12,4 @@ for _ in range(t):
     for _ in range(k):
         for j in range(1,n):
             apart[j] = apart[j-1] + apart[j]
-            print(apart)
     print(apart[n-1])
