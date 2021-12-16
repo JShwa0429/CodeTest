@@ -1,6 +1,6 @@
 import sys
 input = sys.stdin.readline
-S = set([])
+S = set()
 n = int(input())
 for _ in range(n):
     command = input().strip().split()
@@ -22,4 +22,4 @@ for _ in range(n):
         if command[0] == 'all':
             S = set([i for i in range(1,21)])
         elif command[0] == 'empty':
-            S = set([])
+            S = set()
